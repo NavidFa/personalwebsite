@@ -4,55 +4,49 @@ body {
     width: 80%;
     margin: 10%;
 }
-
 h1 {
     font-family: Lucida;
 }
-
 h3 {
     font-family: Verdana;
 }
-
 .main {
-    line-height:180%;
+    line-height: 180%;
     font-size: 1.2rem;
 }
-
 ul {
     line-height: 180%;
     font-size: 1.2rem;
     list-style-type: none;
 }
-
 a {
     color: darkblue;
     text-decoration: none;
 }
-
 #contact {
     font-size: 18px;
 }
-
 #gmail {
     margin-bottom: -1%;
 }
-
-
-.thumb img {
-	border:1px solid #000;
-	margin:3px;
-	float:left;
-  position: relative;
-  width:60vw;
-  height:60vh;
+.petpic {
+    width: 80vw;
+    height: 75vh;
+    margin-left: 2.5%;
+    margin-top: 5%;
 }
-.thumb span {
-	position:absolute;
-	visibility:hidden;
+.top {
+    height: 7vh;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 44%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    background-color: black;
+    padding-top: 3vh;
+    border-radius: 3px;
 }
-.thumb:hover, .thumb:hover span {
-	visibility:visible;
-	left:20%;
-  top: 45%;
-	z-index:1;
+.top a {
+    color: white;
 }
