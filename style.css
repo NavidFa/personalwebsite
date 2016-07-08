@@ -1,0 +1,38 @@
+body {
+    background-color: #fffcfb;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+}
+
+h1 {
+    font-family: Lucida;
+}
+
+h3 {
+    font-family: Verdana;
+}
+
+#main {
+    line-height:180%;
+    font-size: 1.2rem;
+}
+
+ul {
+    line-height: 180%;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#contact {
+    font-size: 18px;
+}
+
+#gmail {
+    margin-bottom: -1%;
+}
