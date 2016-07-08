@@ -13,7 +13,7 @@ h3 {
     font-family: Verdana;
 }
 
-#main {
+.main {
     line-height:180%;
     font-size: 1.2rem;
 }
@@ -35,4 +35,24 @@ a {
 
 #gmail {
     margin-bottom: -1%;
+}
+
+
+.thumb img {
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+  position: relative;
+  width:60vw;
+  height:60vh;
+}
+.thumb span {
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span {
+	visibility:visible;
+	left:20%;
+  top: 45%;
+	z-index:1;
 }
